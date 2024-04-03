@@ -31,6 +31,11 @@
   background-color: #1070b1;
 }
 
+.accordion-header.active i {
+  transform: rotate(180deg);
+  transition: all 0.3s ease-in-out;
+}
+
 .accordion-body.active {
   max-height: 10rem;
   padding: 1rem;
